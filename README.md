@@ -7,22 +7,30 @@ Here's a script that does what I've dreamt for years, pause the video when i'm w
 
 Now the transcript goes at MY pace, not the video's!
 
+## How to use it?
+
+Just go there: https://nazmi.fr/com/comment2.html
+or download **comment2.html** and open it with your browser for offline use.
+
+## Support, collaboration and projects
 If this script was helpful to you, you may donate any amount to support my [work](https://meca.land/en) at:
-BTC:
+
+BTC: **bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf**
+![BTC](https://nazmi.fr/btc/btc.jpeg "BTC")
+
 Paypal:
 
 If you need help developping a solution to your needs you may contact me at: **github@nazmi.fr** while I'm not the best dev there is, I know many many talented peeps!
 
-## How to use it?
+I'm also open to collaboration on any free-libre open-source project that I deem worthy and where I could help! I'm among other things, good at translating between english and french.
 
-Just go there: https://nazmi.fr/com/comment2.html
-or download **comment2.html** and open it with your browser for offline use
 
 ## Other use-cases
 
 If you want to annotate a video with bounding boxes to track movement, this python tool will do, I was misled to it thinking it was what I wanted, then I ended up writing this little javascript script:
 https://github.com/dsgou/annotator
 
+*If you know similar software please raise an issue so that I can add it there!*
 
 ## Todo:
 
