@@ -7,7 +7,7 @@ Here's a script that does what I've dreamt for years, pause the video when i'm w
 
 Now the transcript goes at MY pace, not the video's!
 
-If this script was helpful to you, you may donate any amount to support my (work)[https://meca.land/en] at:
+If this script was helpful to you, you may donate any amount to support my (https://meca.land/en)[work] at:
 BTC:
 Paypal:
 
