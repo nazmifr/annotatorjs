@@ -7,6 +7,12 @@ Here's a script that does what I've dreamt for years, pause the video when i'm w
 
 Now the transcript goes at MY pace, not the video's!
 
+If this script was helpful to you, you may donate any amount to support my (work)[https://meca.land/en] at:
+BTC:
+Paypal:
+
+If you need help developping a solution to your needs you may contact me at: **github@nazmi.fr** while I'm not the best dev there is, I know many many talented peeps!
+
 ## How to use it?
 
 Just go there: https://nazmi.fr/com/comment2.html
@@ -20,6 +26,7 @@ https://github.com/dsgou/annotator
 
 ## Todo:
 
+(Commits and suggestions are welcome!)
 - Add support for HTML5 video
 - Add more video hosts (peertube, twitter, dailymotion, ok.ru, facebook, instagram)
 - Shortcuts to play/pause/disable auto-pause/seek +/- 10 seconds
