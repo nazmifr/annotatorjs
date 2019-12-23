@@ -9,8 +9,8 @@ Now the transcript goes at MY pace, not the video's!
 
 ## How to use it?
 
-Just go there: https://nazmi.fr/com/
-or download ()[index.html] and open it with your browser for offline use
+Just go there: https://nazmi.fr/com/comment2.html
+or download **comment2.html** and open it with your browser for offline use
 
 ## Other use-cases
 
