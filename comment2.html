@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 10px;
+  max-width: 1280px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.plyr{width:1280px;height:720px;}
+</style>
+<script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfldHtazm/www-widgetapi.js" async=""></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.plyr.io/2.0.7/plyr.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/2.0.18/plyr.js"></script>
+<script>
+$(document).ready(function($) {
+  var videoEl = $('#myVideo').get(),
+    player = plyr.setup(videoEl);
+  console.log("  >player:", player[0]);
+
+  player[0].on('ready', function(event) {
+    var instance = event.detail.plyr;
+    console.log("  >ready - player type: " + instance.getType());
+    console.log("  >duration: " + instance.getDuration());
+    trace("ready - duration: " + instance.getDuration());
+  });
+
+  player[0].on('playing', function(event) {
+    var instance = event.detail.plyr;
+    console.log("  >playing");
+    console.log("  >duration: " + instance.getDuration());
+    trace("playing");
+  });
+
+  player[0].on('seeking', function(event) {
+    var instance = event.detail.plyr;
+    console.log("  >seeking");
+    console.log("  >position: " + instance.getCurrentTime() + "/" + instance.getDuration());
+  });
+
+	player[0].on('seeked', function(event) {
+    var instance = event.detail.plyr;
+    console.log("  >seeked");
+    console.log("  >position: " + instance.getCurrentTime() + "/" + instance.getDuration());
+    trace("seek - position: " + instance.getCurrentTime() + "/" + instance.getDuration());
+  });
+  
+  player[0].on('ended', function(event) {
+    var instance = event.detail.plyr;
+    console.log("  >ended");
+    console.log("  >duration: " + instance.getDuration());
+    trace("ended");
+  });
+
+});
+
+function trace(txt) {
+	var t = $("#info").html() + "<br>" + txt;
+  $("#info").html(t);
+
+}
+</script>
+</head>
+
+<body>
+<div class="demo">
+<div id="myVideo" data-type="youtube" data-video-id="1q_kA5yKwFE"> </div>
+<textarea rows="20" cols="180" onkeydown="pausevid();"></textarea>
+<div id="info"></div>
+</div>
+<div class="footer">Resumator.js - Script by Nazmi Akdin - DL the youtube hide extension if the logo and recommendations are of annoyance</div>
+</body>
+
+<script>
+var paused = 0;
+var timer = null;
+
+function pausevid(){
+if (paused != 0){
+   clearTimeout(timer);
+   timer = setTimeout(doStuff, 2000)
+   return;}
+paused = 1;
+var x = document.getElementById('myVideo'); x.click();
+
+timer = setTimeout(doStuff, 1500)
+
+function doStuff() {
+    paused = 0;
+    var x = document.getElementById('myVideo'); x.click();
+}
+}
+
+var lastClick = 0;
+var delay = 3000;
+function playvid() {
+  if (lastClick >= (Date.now() - delay))
+    return;
+  lastClick = Date.now();
+
+  // do things
+   var x = document.getElementById('myVideo'); x.click();
+   var paused = 0;
+
+}
+</script>
+</html>
