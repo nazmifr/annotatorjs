@@ -16,7 +16,8 @@ or download **comment2.html** and open it with your browser for offline use.
 If this script was helpful to you, you may donate any amount to support my [work](https://meca.land/en) at:
 
 BTC: **bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf**
-![BTC](https://nazmi.fr/btc/btc.jpeg "BTC")
+
+<a href="bitcoin:bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf"><img src="https://nazmi.fr/btc/btc.jpeg" align="left" height="256" width="256" ></a>
 
 Paypal:
 
