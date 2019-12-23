@@ -17,7 +17,7 @@ If this script was helpful to you, you may donate any amount to support my [work
 
 BTC: **bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf**
 
-<a href="bitcoin:bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf"><img src="https://nazmi.fr/btc/btc.jpeg" align="left" height="256" width="256" ></a>
+<a href="bitcoin:bc1q0luphle2htcpw9txmevmke6hxug689ngf9fcaf"><img src="https://nazmi.fr/btc/btc.jpeg" align="left" height="256" ></a>
 
 Paypal:
 
